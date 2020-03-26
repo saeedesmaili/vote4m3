@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vote for Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='img/logo.jpg') }}">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="inner">
+                <section class="section-intro">
+                    <div class="section-intro_textbox">
+                        <img src="{{ url_for('static', filename='img/logo.jpg') }}" alt="logo" class="logo">
+                        <h1>به من رأی بده !</h1>
+                        <hr id="hr-intro">
+                        <p>جایی که نظر بقیه رو در مورد خودت میدونی</p>
+                    </div>
+                </section>
+                <hr id="hr-break">
+                <section class="section-cons">
+                    <div class="row">
+                        <h2>یک چالش هیجان انگیز برای اینکه خودت رو بهتر بشناسی</h2>
+                    </div>
+                    
+                    <!-- <img src="./resources/CSS/IMG/site.png" alt=""> -->
+                    <div class="section-cons_steps">
+                       
+                        <div class="section-cons_st1 clearfix">
+                            <div class="col span-1-of-3 box">
+                                    <div class="steps">
+                                        <div class="bookmarkRibbon"><span style="color:rgba(44,42,54,0.8);position: relative;top: -9px;text-align: center;right: -1px;">1</span></div>
+                                            <p>همه دوس دارن نظر بقیه در مورد خودشون رو بدونن ولی یا نمیشه مستقیم پرسید یا جواب های بقیه از روی تعارف زیاد دقیق نیست</p>
+                                            <img src="{{ url_for('static', filename='icons/wolf.png') }}" alt="">
+                                    </div>
+                                </div>
+                                <div class="col span-1-of-3 box">
+                                    <div class="steps">
+                                        <div class="bookmarkRibbon"><span style="color:rgba(44,42,54,0.8);position: relative;top: -9px;text-align: center;right: -1px;">2</span></div>
+                                        <p>تیم ما بعد از ساعت ها مشاوره با روانشناس ها و بررسی تست های روانشناسی ده ویژگی تو رو به نظرسنجی میزاره</p>
+                                        <img src="{{ url_for('static', filename='icons/deer.png') }}" alt="">
+                                    </div>
+                                </div>
+                                <div class="col span-1-of-3 box">
+                                    <div class="steps">
+                                            <div class="bookmarkRibbon"><span style="color:rgba(44,42,54,0.8);position: relative;top: -9px;text-align: center;right: -1px;">3</span></div>
+                                            <p>شما واسه مطلع شدن دوستات لینک مربوط به شرکت توی نظر سنجی رو براشون میفرستی یا تو شبکه های اجتماعیت به اشتراک میزاری</p>
+                                            <img src="{{ url_for('static', filename='icons/dove.png') }}" alt="">
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="section-cons_st2">
+                            <div class="col span-1-of-3 box" style="margin-left: 16.13%" >
+                                <div class="steps">
+                                        <div class="bookmarkRibbon"><span style="color:rgba(44,42,54,0.8);position: relative;top: -9px;text-align: center;right: -1px;">4</span></div>
+                                    <p>اونا هم بدون نگرانی از معلوم شدن نظراتشون با خیال راحت میتونن بهت رأی بدن</p>
+                                    <img src="{{ url_for('static', filename='icons/lion.png') }}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col span-1-of-3 box" style="margin-right: 16.13% ">
+                                <div class="steps">
+                                        <div class="bookmarkRibbon"><span style="color:rgba(44,42,54,0.8);position: relative;top: -9px;text-align: center;right: -1px;">5</span></div>
+                                        <p>هر وقت دوس داشتی یه خروجی گرافیکی از آرا دریافت میکنی. با توجه به رأی ها بهت تیپ شخصیتی و امتیاز خواهیم داد . این خروجی رو میتونی به اشتراک بزاری و بقیه رو هم به چالش دعوت کنی.</p>
+                                        <img src="{{ url_for('static', filename='icons/panda.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </section>
+                <hr id="hr-break">
+                <section class="section-exp">
+                    <div class="row">
+                            <h2>خروجی ای که دو تا از کاربرامون گرفتن</h2>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-2 box">
+                            <img class="user" src="{{ url_for('static', filename='img/romina9803.jpg') }}" alt="">
+                        </div>
+                        <div class="col span-1-of-2 box">
+                                <img class="user" src="{{ url_for('static', filename='img/romina98032.jpg') }}" alt="">
+                            </div>
+                    </div>
+                </section>
+                <hr id="hr-break">
+                <div class="row">
+                        <a href="https://telegram.me/Vote4Me_bot?start" class="btn btn--blue btn--animated">امتحانش کن !</a>
+                </div>
+                
+            </div>
+       
+        </div>
+
+        <footer class="content" style="margin-top: 15px !important">
+            <div class="inner">
+                <div class="row">
+                        <div class="col span-1-of-2 box">
+                            <p>تماس با ما</p>
+                            <hr id="hr-footer">
+                            <ul class="social-links">
+                                <li> <a href="mailto: vote4me@phmbott.com"> <img src="{{ url_for('static', filename='icons/email-50.png') }}"> </a> </li>
+                                <li> <a href="https://t.me/Vote4Me_Admin"> <img src="{{ url_for('static', filename='icons/telegram-app-50.png') }}"> </a> </li>
+                                <li> <a href="#"> <img src="{{ url_for('static', filename='icons/instagram-old-50.png') }}"> </a> </li>
+                                
+                            </ul>
+                            <p>پشتیبانی</p>
+                            <hr id="hr-footer">
+                            <p class="call-num"> <img src="{{ url_for('static', filename='icons/headset-25.png') }}" style="vertical-align: middle" alt=""> 09123769441</p>
+                        </div>
+                        <div class="col span-1-of-2 box">
+                            <p>درباره ما </p>
+                            <hr id="hr-footer">
+                            <p class="about-us" >گروه سازنده Vote4me با رویکرد فناوری‌های جدید و شبکه‌های اجتماعی از سال ۱۳۹۰ دور هم جمع شد وپروژه‌های مختلفی را تا کنون اجرا کرده‌اند. پروژه Vote4Us سال ۹۶ و با همکاری دو نفر از اعضای گروه کلید خورد. مدت یک سال صرف ایده پردازی و مطالعات تخصصی در زمینه‌های روان‌شناسی، شبکه‌سازی اجتماعی، بات نویسی تلگرام و مطالعات بازار شد. اکنون بعد از سال‌ها اولین محصول این گروه عرضه شده و امید است آغاز  دست‌یابی به چشم‌انداز بلند این گروه در حیطه نرم‌افزارهای مبتنی بر علوم روان‌شناسی و علوم اجتماعی باشد. </p>
+                        </div>
+                </div>
+            </div>
+                
+        </footer>
+
+    </div>
+</body>
+</html>
