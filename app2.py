@@ -29,7 +29,7 @@ def plot():
 
     return jsonify(result)
 
-@app.route("/bot/files/<path:path>")
+@app.route("/bot/static/<path:path>")
 def send_file(path):
     print(path)
     return send_from_directory("static", path)
